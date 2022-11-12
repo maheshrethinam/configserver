@@ -1,4 +1,6 @@
 eureka:
   client:
     service-url:
-      defaultZone: ${DISCOVERY_URL:http://localhost:7001}/eureka/    
+      defaultZone: ${DISCOVERY_URL:http://localhost:7001}/eureka/ 
+  instance:
+    hostname: localhost
